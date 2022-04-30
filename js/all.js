@@ -1,1 +1,1 @@
-"use strict";
+"use strict";var checkpoints=new Swiper(".swiper-checkpoints",{direction:"vertical",spaceBetween:60,hashNavigation:{watchState:!0}});
