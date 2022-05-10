@@ -190,3 +190,33 @@
     }
   }
 }
+
+.s-projects {
+  width: 100%;
+
+  padding: 6.4rem 0;
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+
+    .title {
+      width: 100%;
+      max-width: calc(50% - 12px);
+      height: 30rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      h2 {
+        font-weight: 500;
+        font-size: 9.6rem;
+        line-height: 100%;
+
+        max-width: 40rem;
+      }
+    }
+  }
+}

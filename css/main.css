@@ -55,6 +55,69 @@ body {
   }
 }
 
+.card {
+  width: 100%;
+  max-width: calc(50% - 12px);
+  height: 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 24px;
+  background-color: rgba(237, 237, 237, 0.1);
+  border-radius: 4px;
+  padding-left: 2.4rem;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+.card:hover {
+  background-color: rgba(237, 237, 237, 0);
+}
+.card-text h4 {
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 100%;
+  margin-bottom: 2.4rem;
+}
+.card-text p {
+  max-width: 35rem;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 140%;
+}
+.card-image {
+  max-width: 28rem;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 0px 4px 4px 0px;
+}
+.card-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.card.right {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  padding-left: 0;
+  padding-right: 2.4rem;
+}
+.card.right h4, .card.right p {
+  text-align: right;
+}
+.card.right .card-image {
+  border-radius: 4px 0px 0px 4px;
+}
+
 .s-hero {
   width: 100%;
   height: 100vh;
@@ -234,4 +297,37 @@ body {
   -ms-flex-pack: end;
   justify-content: flex-end;
   gap: 16px;
+}
+
+.s-projects {
+  width: 100%;
+  padding: 6.4rem 0;
+}
+.s-projects .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.s-projects .cards .title {
+  width: 100%;
+  max-width: calc(50% - 12px);
+  height: 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.s-projects .cards .title h2 {
+  font-weight: 500;
+  font-size: 9.6rem;
+  line-height: 100%;
+  max-width: 40rem;
 }
