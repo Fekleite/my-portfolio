@@ -118,6 +118,64 @@ body {
   border-radius: 4px 0px 0px 4px;
 }
 
+.card-line {
+  width: 100%;
+  height: 8rem;
+  background: rgba(237, 237, 237, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0 7.5rem;
+}
+.card-line .text h4 {
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 100%;
+}
+.card-line .text h4 + span {
+  margin-top: 0.8rem;
+}
+.card-line .text span {
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 100%;
+  color: #DA0037;
+  display: inline-block;
+}
+.card-line .circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #DA0037;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.card-line .circle span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #DA0037;
+}
+.card-line.left {
+  border-radius: 4px 40px;
+}
+.card-line.right {
+  border-radius: 40px 4px;
+}
+
 .s-hero {
   width: 100%;
   height: 100vh;
@@ -330,4 +388,73 @@ body {
   font-size: 9.6rem;
   line-height: 100%;
   max-width: 40rem;
+}
+
+.s-skills {
+  width: 100%;
+  padding: 6.4rem 0;
+}
+.s-skills .content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 44px;
+}
+.s-skills .content .top,
+.s-skills .content .bottom {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 24px;
+}
+.s-skills .content .top .hard-lines,
+.s-skills .content .top .soft-lines,
+.s-skills .content .bottom .hard-lines,
+.s-skills .content .bottom .soft-lines {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  max-width: calc(50% - 12px);
+}
+.s-skills .content .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 36px;
+}
+.s-skills .content .title h2 {
+  font-weight: 500;
+  font-size: 9.6rem;
+  line-height: 100%;
+  max-width: 25rem;
+}
+.s-skills .content .title h2:first-child {
+  text-align: right;
+}
+.s-skills .content .title span {
+  font-weight: 500;
+  font-size: 16rem;
+  line-height: 100%;
+  color: #DA0037;
 }

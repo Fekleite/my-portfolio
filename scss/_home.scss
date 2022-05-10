@@ -220,3 +220,63 @@
     }
   }
 }
+
+.s-skills {
+  width: 100%;
+
+  padding: 6.4rem 0;
+
+  .content {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 44px;
+
+    .top,
+    .bottom {
+      width: 100%;
+
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+
+      .hard-lines,
+      .soft-lines {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        width: 100%;
+        max-width: calc(50% - 12px);
+      }
+    }
+
+    .title {
+      display: flex;
+      align-items: center;
+      gap: 36px;
+
+      h2 {
+        font-weight: 500;
+        font-size: 9.6rem;
+        line-height: 100%;
+
+        max-width: 25rem;
+
+        &:first-child {
+          text-align: right;
+        }
+      }
+
+      span {
+        font-weight: 500;
+        font-size: 16rem;
+        line-height: 100%;
+
+        color: $secondary-color;
+      }
+    }
+  }
+}
