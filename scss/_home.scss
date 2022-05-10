@@ -280,3 +280,18 @@
     }
   }
 }
+
+footer {
+  padding: 4.8rem 0;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .copyright {
+    font-weight: 400;
+    font-size: 1.6rem;
+  }
+}
