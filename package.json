@@ -1,9 +1,9 @@
 {
-  "name": "codeboost-gulp",
+  "name": "devnanda",
   "version": "1.0.0",
-  "description": "Um projeto criado par ao codeboost",
+  "description": "My Portfolio",
   "main": "index.js",
-  "author": "William Moreira",
+  "author": "Fernanda Leite",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.16.0",
