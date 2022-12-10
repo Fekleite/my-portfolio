@@ -64,6 +64,26 @@
       }
     }
   }
+
+  position: relative;
+
+  .scroll-down {
+    position: absolute;
+    bottom: 2rem;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    i {
+      font-size: 1.5rem;
+
+      animation: pulse 2s infinite;
+    }
+  }
 }
 
 .s-works {

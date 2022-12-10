@@ -167,12 +167,41 @@ section {
     transform: translate3d(0, -4px, 0) scaleY(1.02);
   }
 }
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  50% {
+    -webkit-transform: translate(0, 10px);
+    transform: translate(0, 10px);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  50% {
+    -webkit-transform: translate(0, 10px);
+    transform: translate(0, 10px);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
 .s-hero {
   width: 100%;
   background-image: url("../assets/background-hero.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  position: relative;
 }
 .s-hero .container {
   height: 100%;
@@ -229,6 +258,27 @@ section {
 .s-hero .content .logo img {
   -webkit-animation: logoAnimate 3000ms linear 1 normal forwards;
   animation: logoAnimate 3000ms linear 1 normal forwards;
+}
+.s-hero .scroll-down {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1rem;
+}
+.s-hero .scroll-down i {
+  font-size: 1.5rem;
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse 2s infinite;
 }
 
 .s-works {
