@@ -222,11 +222,17 @@
     }
 
     .contacts {
-      a {
-        font-family: 'Lora', serif;
-        font-weight: 500;
-        font-size: 1.25rem;
-        color: $white;
+      .links {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        a {
+          font-family: 'Lora', serif;
+          font-weight: 500;
+          font-size: 1.25rem;
+          color: $white;
+        }
       }
     }
 
