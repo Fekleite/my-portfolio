@@ -12,3 +12,5 @@ var slideWorks = new Swiper(".slide-works", {
     }
   }
 });
+
+AOS.init();
