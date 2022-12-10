@@ -1,0 +1,59 @@
+.s-hero {
+  width: 100%;
+
+  background-image: url("../assets/background-hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  .container {
+    height: 100%;
+  }
+
+  .content {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .presentation,
+    .resume {
+      width: 100%;
+      max-width: 31rem;
+    }
+
+    .presentation {
+      span {
+        font-family: 'Lora', serif;
+        font-size: 1.5rem;
+      }
+
+      h1 {
+        font-weight: 700;
+        font-size: 4rem;
+        color: $primary-default;
+
+        margin-bottom: 2rem;
+      }
+
+      small {
+        font-family: 'Lora', serif;
+      }
+    }
+
+    .logo {
+      width: 100%;
+      max-width: 25rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        animation: logoAnimate 3000ms linear 1 normal forwards
+      }
+    }
+  }
+}
