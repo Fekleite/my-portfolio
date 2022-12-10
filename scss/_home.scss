@@ -252,3 +252,33 @@
     }
   }
 }
+
+.s-skills {
+  height: auto;
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+
+  .skills-bar {
+    padding: 2rem 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+
+    .bar-item {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      cursor: pointer;
+
+      &:hover {
+        img {
+          animation: bounce 2000ms linear 300ms infinite normal;
+          transform-origin: center bottom;
+        }
+      }
+    }
+  }
+}
