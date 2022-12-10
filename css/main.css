@@ -117,12 +117,17 @@ section {
 }
 .s-hero .content .presentation h1 {
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 4.5rem;
   color: #78FFD6;
   margin-bottom: 2rem;
 }
 .s-hero .content .presentation small {
   font-family: "Lora", serif;
+}
+.s-hero .content .resume p {
+  font-family: "Lora", serif;
+  font-size: 1.25rem;
+  text-align: right;
 }
 .s-hero .content .logo {
   width: 100%;
@@ -140,4 +145,57 @@ section {
 .s-hero .content .logo img {
   -webkit-animation: logoAnimate 3000ms linear 1 normal forwards;
   animation: logoAnimate 3000ms linear 1 normal forwards;
+}
+
+.s-works {
+  width: 100%;
+}
+.s-works .container {
+  height: 100%;
+}
+.s-works .content {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 3.6rem;
+}
+.s-works .content h2 {
+  font-weight: 700;
+  font-size: 4rem;
+  color: #78FFD6;
+}
+.s-works .content .slide-works .swiper-wrapper .swiper-slide {
+  width: 45rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 5rem 3.5rem;
+}
+.s-works .content .slide-works .swiper-wrapper .swiper-slide .image {
+  border-radius: 16px;
+  overflow: hidden;
+}
+.s-works .content .slide-works .swiper-wrapper .swiper-slide a {
+  font-family: "Lora", serif;
+  font-weight: 500;
+  color: #FFFFFF;
 }
