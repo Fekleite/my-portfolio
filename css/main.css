@@ -370,8 +370,11 @@ section {
   padding: 5rem 3.5rem;
 }
 .s-works .content .slide-works .swiper-wrapper .swiper-slide .image {
-  border-radius: 16px;
-  overflow: hidden;
+  max-width: 100%;
+}
+.s-works .content .slide-works .swiper-wrapper .swiper-slide .image img {
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 .s-works .content .slide-works .swiper-wrapper .swiper-slide a {
   font-family: "Lora", serif;

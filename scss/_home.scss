@@ -160,9 +160,11 @@
           padding: 5rem 3.5rem;
 
           .image {
-            border-radius: 16px;
+            max-width: 100%;
 
-            overflow: hidden;
+            img {
+              object-fit: cover;
+            }
           }
 
           a {
