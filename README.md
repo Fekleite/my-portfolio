@@ -6,7 +6,8 @@
 
 <p>Este projeto está licenciado sob a licença MIT - consulte a página <a href="https://opensource.org/licenses/MIT" style=" font-size: 16px; " >LICENSE</a> para obter detalhes.</p>
 
-</br>
-</br>
+## Créditos
 
-<p >Desenvolvido com ❤️ por <a href="https://github.com/Fekleite">Fernanda Leite </a>
+Criado por Fernanda Leite com 💙
+
+Design e estilo por [Fernanda Leite](https://www.fekdev.com.br/)
